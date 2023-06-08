@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1.
+        // Desenvolva um algoritmo que leia a altura de 15 pessoas. Este
+// programa deverá calcular e mostrar:
+// a. A menor altura do grupo;
+// b. A maior altura do grupo;
+
+var  index = 1
+var alturamenor = 10   
+var alturamaior = 0
+
+while (index <= 15) {
+var altura = prompt("Digite sua altura" + index)
+index ++
+
+    if (altura > alturamaior ) {
+        alturamaior = altura
+    } else if (altura < alturamenor) {
+        alturamenor = altura 
+    } 
+
+    console.log ("a menor altura do grupo é: " + alturamenor)
+    console.log ("a altura maior do grupo é: " + alturamaior) 
+}
+    </script>
+</body>
+</html>
